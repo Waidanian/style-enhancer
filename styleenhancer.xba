@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC
+ "-//OpenOffice.org//DTD OfficeDocument 1.0//EN"
+ "module.dtd">
+<script:module
+ xmlns:script="http://openoffice.org/2000/script"
+ script:name="Style-Enhancer" script:language="StarBasic">
+
+Option Explicit
+
+rem En écrivant mon code, je ne prendrai pas la peine de toujours écrire
+rem &quot; au lieu de " : je vais faire ces remplacements périodiquement
+rem avec des opérations d’expressions régulières.
+
+function getStringsWithGivenTextStyle()
+
+rem Rechercher les chaînes qui possèdent un style de caractère donné.
+rem Donner en argument le nom d’un style présent dans le document.
+rem La valeur retournée par la fonction est une liste (vecteur?) de chaînes.
+
+end function
+
+</script:module>

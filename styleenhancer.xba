@@ -8,16 +8,8 @@
 
 Option Explicit
 
-rem En écrivant mon code, je ne prendrai pas la peine de toujours écrire
-rem &quot; au lieu de " : je vais faire ces remplacements périodiquement
-rem avec des opérations d’expressions régulières.
-
-function getStringsWithGivenTextStyle()
-
-rem Rechercher les chaînes qui possèdent un style de caractère donné.
-rem Donner en argument le nom d’un style présent dans le document.
-rem La valeur retournée par la fonction est une liste (vecteur?) de chaînes.
-
-end function
+rem This is an empty template: ideally, the scripts would be developed
+rem outside of the application’s awful IDE, but it proves to be even
+rem more clumsy, so I develop the actual scripts in an ODT document.
 
 </script:module>
